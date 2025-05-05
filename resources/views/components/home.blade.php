@@ -11,12 +11,12 @@
                     <div class="hero-box text-left">
                         <span class="greeting">HELLO</span>
                         <h2 class="name">
-                            I'm <span>Genie Francis</span>
+                            I'm <span>Fahad Amjad</span>
                         </h2>
 
                         <h4 class="header_title"> I Do <span id="typed"></span></h4>
                         <p class="short-info">
-                            With over 5+ years of job experience.
+                            With over 6+ years of job experience.
                             I studied Information Technology at University and later honed my skills through commercial and
                             freelance experience. My skills include PHP, Laravel, jQuery, database design, JavaScript and MySQL.
                         </p>
