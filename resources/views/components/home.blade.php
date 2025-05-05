@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="main-profile-image">
-                        <img src="assets/images/main-img.jpg" alt="">
+                        <img src="assets/images/portfolio.jpg" alt="fahad-image">
                     </div>
                 </div>
                 <div class="col-lg-6  align-self-center">
