@@ -9,5 +9,4 @@ use Illuminate\Database\Eloquent\Model;
 final class BlogPost extends Model
 {
     protected $fillable = ['title', 'slug', 'excerpt', 'content', 'featured_image', 'published_at'];
-
 }

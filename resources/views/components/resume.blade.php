@@ -15,7 +15,7 @@
                     <div class="row">
                         <div class="col-lg-6 d-flex align-self-center">
                             <div class="about-content">
-                                <a href="index.html#" class="mybtn mybtn-bg"> <span><i class="fas fa-download"></i>Download My CV</span> </a>
+                                <a href="{{ route('download.resume') }}" class="mybtn mybtn-bg"> <span><i class="fas fa-download"></i>Download My CV</span> </a>
                             </div>
                         </div>
                     </div>

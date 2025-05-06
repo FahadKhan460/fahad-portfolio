@@ -6,8 +6,10 @@ namespace App\Http\Controllers;
 
 final class FrontendController extends Controller
 {
-    public function __invoke()
+    public function index()
     {
         return view('index');
     }
+
+    public function download() {}
 }
