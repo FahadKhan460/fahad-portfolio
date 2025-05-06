@@ -56,7 +56,7 @@
                             <div class="single-skill">
                                 <div class="label">
                                     <span>PHP</span>
-                                    <span>75%</span>
+                                    <span>95%</span>
                                 </div>
                                 <div class="progress">
                                     <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
@@ -90,26 +90,6 @@
                                 <div class="progress">
                                     <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
                                          aria-valuenow="92" aria-valuemin="0" aria-valuemax="100" style="width: 92%"></div>
-                                </div>
-                            </div>
-                            <div class="single-skill">
-                                <div class="label">
-                                    <span>Arabic</span>
-                                    <span>88%</span>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                                         aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" style="width: 88%"></div>
-                                </div>
-                            </div>
-                            <div class="single-skill">
-                                <div class="label">
-                                    <span>Spanish</span>
-                                    <span>80%</span>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                                         aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
                                 </div>
                             </div>
                             <div class="single-skill">
@@ -156,7 +136,7 @@
                                 <div class="progress-circle position" data-percent="82" data-duration="1000"
                                      data-color="#e9ecef, 304CFD"></div>
                                 <div class="label mt-1 d-block text-center">
-                                    <span>Auto CAD</span>
+                                    <span>Dev Ops</span>
                                 </div>
                             </div>
                         </div>
