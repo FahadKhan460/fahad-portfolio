@@ -13,9 +13,9 @@
             <li class="mynav-item portfolio">
                 <a class="mynav-link portfolio" href="{{ route('dashboard') }}#portfolio">Portfolio</a>
             </li>
-{{--            <li class="mynav-item">--}}
-{{--                <a class="mynav-link" href="{{ route('dashboard') }}#blog">Blog</a>--}}
-{{--            </li>--}}
+            <li class="mynav-item">
+                <a class="mynav-link" href="{{ route('dashboard') }}#blog">Blog</a>
+            </li>
             <li class="mynav-item">
                 <a class="mynav-link" href="{{ route('dashboard') }}#contact">Contact</a>
             </li>
