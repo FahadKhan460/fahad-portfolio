@@ -2,6 +2,7 @@
 
 namespace App\Livewire;
 
+use App\Mail\ContactMail;
 use App\Models\ContactUs;
 use Illuminate\Support\Facades\Mail;
 use Livewire\Component;
@@ -24,18 +25,14 @@ class ContactForm extends Component
     {
         $this->validate();
 
-        ContactUs::create([
+        $data = ContactUs::create([
             'name' => $this->name,
             'email' => $this->email,
             'subject' => $this->subject,
             'message' => $this->message,
         ]);
 
-        Mail::raw($this->message, function ($mail) {
-            $mail->to('fadikhan460@gmail.com')
-                ->subject($this->subject)
-                ->from('fadikhan460@gmail.com', $this->name);
-        });
+        Mail::send(new ContactMail($data->toArray()));
 
         session()->flash('success', 'Message sent successfully!');
         $this->reset();
