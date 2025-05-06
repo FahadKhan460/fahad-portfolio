@@ -2,9 +2,9 @@
 
 namespace App\Livewire;
 
-use App\Mail\ContactMail;
+//use App\Mail\ContactMail;
 use App\Models\ContactUs;
-use Illuminate\Support\Facades\Mail;
+//use Illuminate\Support\Facades\Mail;
 use Livewire\Component;
 
 class ContactForm extends Component
@@ -32,7 +32,7 @@ class ContactForm extends Component
             'message' => $this->message,
         ]);
 
-        Mail::send(new ContactMail($data->toArray()));
+//        Mail::send(new ContactMail($data->toArray()));
 
         session()->flash('success', 'Message sent successfully!');
         $this->reset();
