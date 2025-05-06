@@ -18,48 +18,48 @@
                                 <ul class="info-list">
                                     <li>
                                         <span class="title">First Name : </span>
-                                        <span class="value">Genie</span>
+                                        <span class="value">Fahad</span>
                                     </li>
                                     <li>
                                         <span class="title">Last Name : </span>
-                                        <span class="value">Francis</span>
+                                        <span class="value">Amjad</span>
                                     </li>
                                     <li>
                                         <span class="title">Age : </span>
-                                        <span class="value">28</span>
+                                        <span class="value">30</span>
                                     </li>
                                     <li>
                                         <span class="title">Birthdate : </span>
-                                        <span class="value">21 june 1990</span>
+                                        <span class="value">05 july 1995</span>
                                     </li>
                                     <li>
                                         <span class="title">Residence : </span>
-                                        <span class="value">USA</span>
+                                        <span class="value">Pakistan</span>
                                     </li>
                                     <li>
                                         <span class="title">Langages : </span>
-                                        <span class="value">English</span>
+                                        <span class="value">English, Urdu</span>
                                     </li>
                                     <li>
                                         <span class="title">Phone : </span>
-                                        <span class="value">+0143 173 559</span>
+                                        <span class="value">+92 3216011307</span>
                                     </li>
                                     <li>
                                         <span class="title">Email : </span>
-                                        <span class="value">anexample@gmail.com</span>
+                                        <span class="value">fadikhan460@gmail.com</span>
                                     </li>
                                     <li>
                                         <span class="title">Freelance : </span><span class="value">Available</span>
                                     </li>
                                     <li>
-                                        <span class="title">Experience : </span><span class="value">5 years</span>
+                                        <span class="title">Experience : </span><span class="value">6 years +</span>
                                     </li>
                                     <li>
-                                        <span class="title">Skype : </span><span class="value">genie.francis</span>
+                                        <span class="title">LinkedIn : </span><span class="value">fahad-amjad</span>
                                     </li>
                                     <li>
                                         <span class="title">Address :</span>
-                                        <span class="value">700 Oak Street USA</span>
+                                        <span class="value">Rehman Plaza, Pakistan</span>
                                     </li>
                                 </ul>
                             </div>
@@ -93,7 +93,7 @@
                                                         <i class="fas fa-briefcase"></i>
                                                     </div>
                                                     <div class="number">
-                                                        <span class="n-counter">658</span><span class="plus">+</span>
+                                                        <span class="n-counter">100</span><span class="plus">+</span>
                                                     </div>
                                                 </div>
                                                 <div class="content">
@@ -129,7 +129,7 @@
                                                         <i class="fas fa-medal"></i>
                                                     </div>
                                                     <div class="number">
-                                                        <span class="n-counter">72</span><span class="plus">+</span>
+                                                        <span class="n-counter">0</span><span class="plus">+</span>
                                                     </div>
                                                 </div>
                                                 <div class="content">
@@ -176,7 +176,7 @@
             <div class="col-lg-4 col-md-6">
                 <a href="ajax/service3.html" class="single-service service-modal ">
                     <img src="assets/images/s3.png" alt="">
-                    <h6 class="title">Digital Marketing</h6>
+                    <h6 class="title">Digital Occeans</h6>
                     <p>Hopes lived by rooms oh in no death house. Contented direction september but end led excellent
                         ourselves.</p>
                 </a>
