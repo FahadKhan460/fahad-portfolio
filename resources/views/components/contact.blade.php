@@ -54,52 +54,8 @@
             <div class="col-lg-6">
                 <div class="home-page-form">
                     <div class="contact-form">
-                        <form id="contact-form" method="post" action="https://idealdevs.net/porichoy/sendmail">
-                            <input type="hidden" name="_token" value="U58FZo5N9knWeZ9Bp0aIjs2rZ5NOuJ4ej3SCbpB4">
-                            <div class="controls">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <i class="fa fa-user-o"></i>
-                                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Name"
-                                                   required="required" data-error="Name is required.">
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <i class="fa fa-envelope-o"></i>
-                                            <input id="form_email" type="email" name="email" class="form-control" placeholder="Email*"
-                                                   required="required" data-error="Valid email is required.">
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <i class="fa fa-question-circle-o"></i>
-                                            <input id="form_subject" type="text" name="subject" class="form-control"
-                                                   placeholder="Subject*" required="required" data-error="Subject is required.">
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <i class="fa fa-comment-o"></i>
-                                            <textarea id="form_message" name="message" class="form-control" placeholder="Message*"
-                                                      rows="7" required="required" data-error="Please,leave us a message."></textarea>
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <button type="submit" class="mybtn mybtn-bg"><span>Send Message</span></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </form> <!-- End Contact From -->
+
+                        <livewire:contact-form />
 
                         <div class="social-link">
                             <ul class="wrap">
