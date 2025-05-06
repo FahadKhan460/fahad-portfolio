@@ -18,7 +18,7 @@
                     </div>
                     <div class="info-content">
                         <h5>My Location:</h5>
-                        <p>700 Oak Street, Brockton MA 2301</p>
+                        <p>Sargodha, Punjab, Rehman Plaza, Office #46 </p>
                     </div>
 
                 </div>
@@ -31,7 +31,7 @@
                     </div>
                     <div class="info-content">
                         <h5>Phone Number:</h5>
-                        <p>+0123 123 856</p>
+                        <p>+92 3216011307</p>
                     </div>
 
                 </div>
@@ -45,7 +45,7 @@
                     </div>
                     <div class="info-contentr">
                         <h5>Email Address:</h5>
-                        <p>demomail@gmail.com</p>
+                        <p>fadikhan460@gmail.com</p>
                     </div>
                 </div>
             </div>
