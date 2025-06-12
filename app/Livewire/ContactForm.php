@@ -6,6 +6,7 @@ namespace App\Livewire;
 use App\Models\ContactUs;
 //use Illuminate\Support\Facades\Mail;
 use Livewire\Component;
+use Illuminate\Support\Facades\Http;
 
 class ContactForm extends Component
 {
@@ -33,6 +34,11 @@ class ContactForm extends Component
         ]);
 
 //        Mail::send(new ContactMail($data->toArray()));
+
+        Http::post('https://formspree.io/f/mzzgrvlw', [
+            'email' => $this->email,
+            'message' => "From: {$this->name}\nSubject: {$this->subject}\n\n{$this->message}",
+        ]);
 
         session()->flash('success', 'Message sent successfully!');
         $this->reset();
